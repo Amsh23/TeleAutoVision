@@ -462,7 +462,7 @@ def click_message_box():
             "message_box.png"
         ),
         "Message Box",
-        confidence=0.80,
+        confidence=0.35,
         wait=MESSAGE_WAIT,
         retries=5,
         retry_delay=1
@@ -578,7 +578,7 @@ def click_menu():
             "menu.png"
         ),
         "Menu",
-        confidence=0.80,
+        confidence=0.35,
         wait=2,
         retries=5,
         retry_delay=1
@@ -687,7 +687,7 @@ def end_chat():
                 "end_chat_1.png"
             ),
             "End Chat Option 1",
-            confidence=0.80,
+            confidence=0.35,
             wait=2,
             retries=2,
             retry_delay=1
@@ -712,7 +712,7 @@ def end_chat():
                     "end_chat_2.png"
                 ),
                 "End Chat Option 2",
-                confidence=0.80,
+                confidence=0.35,
                 wait=2,
                 retries=5,
                 retry_delay=1
@@ -745,7 +745,7 @@ def end_chat():
                     "menu.png"
                 ),
                 "Menu",
-                confidence=0.80,
+                confidence=0.35,
                 wait=2,
                 retries=5,
                 retry_delay=1
@@ -773,7 +773,7 @@ def end_chat():
                 "menu.png"
             ),
             "Menu",
-            confidence=0.80,
+            confidence=0.35,
             wait=2,
             retries=5,
             retry_delay=1
